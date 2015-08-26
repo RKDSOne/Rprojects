@@ -1,0 +1,29 @@
+> x = c(1,3,5,7,9)
+> y = c(2,3,5,7,11,13)
+> 
+> x+1
+[1]  2  4  6  8 10
+> y*2
+[1]  4  6 10 14 22 26
+> length(x) 
+[1] 5
+> length(y)
+[1] 6
+> x + y
+[1]  3  6 10 14 20 14
+Warning message:
+In x + y : longer object length is not a multiple of shorter object length
+> sum(x>5) 
+[1] 2
+> sum(x[x>5])
+[1] 16
+> sum(x>5 | x< 3) # read | as 'or', & and 'and'
+[1] 3
+> y[3]
+[1] 5
+> y[-3]
+[1]  2  3  7 11 13
+> y[x]
+[1]  2  5 11 NA NA
+> y[y>=7]
+[1]  7 11 13

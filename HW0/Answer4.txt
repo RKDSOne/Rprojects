@@ -1,0 +1,14 @@
+> prices = c(9000, 9500, 9500, 9400, 10000, 9500, 10300, 10200)
+> 
+> # Find mean and compare it to edmunds
+> x = mean(prices)
+> x
+[1] 9675
+> x - 9500
+[1] 175
+> 
+> # Find min and max
+> max(prices)
+[1] 10300
+> min(prices)
+[1] 9000
