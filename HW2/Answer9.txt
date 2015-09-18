@@ -1,0 +1,3 @@
+# Find area to the right of 1.5 for normal distribution (0,2)
+> pnorm(1.5, mean = 0, sd = 2, lower.tail = F)
+[1] 0.2266274

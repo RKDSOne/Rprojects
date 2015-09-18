@@ -1,0 +1,9 @@
+# Exponential numbers with mean 10
+> x = rexp(100, 10)
+> hist(x)
+> 
+> # Compare mean with median
+> mean(x)
+[1] 0.1010328
+> median(x)
+[1] 0.06728211

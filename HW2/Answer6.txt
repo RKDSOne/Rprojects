@@ -1,0 +1,12 @@
+> # Select 6 from lottery of 49 numbers
+> x = sample(1:49, 6, replace = TRUE)
+> x
+[1] 49 25 13  7 34 15
+> 
+> # Find largest
+> max(x)
+[1] 49
+> 
+> # Find smallest
+> min(x)
+[1] 7
