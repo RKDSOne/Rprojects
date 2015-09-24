@@ -1,0 +1,5 @@
+n = 1e+05 , 1 - Differnce in E(X) and exact answer: -0.001827594 
+n = 1e+05 , 2 - Differnce in E(X) and exact answer: 0.007557133 
+n = 1e+05 , 3 - Differnce in E(X) and exact answer: -0.004950959 
+n = 1e+05 , 4 - Differnce in E(X) and exact answer: -0.0004876046 
+n = 1e+05 , 5 - Differnce in E(X) and exact answer: -0.0002546633 

@@ -1,0 +1,5 @@
+n = 10000, 1 - Differnce in E(X) and exact answer: 0.03377298 
+n = 10000, 2 - Differnce in E(X) and exact answer: 0.05699803 
+n = 10000, 3 - Differnce in E(X) and exact answer: 0.08123913 
+n = 10000, 4 - Differnce in E(X) and exact answer: 0.03751221 
+n = 10000, 5 - Differnce in E(X) and exact answer: -0.04630851 
