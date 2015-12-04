@@ -27,7 +27,7 @@ dev.off()
 jpeg("Time series plot.jpg", width = 1080, height = 480)
 plot(resid(fit4), type="l", main = "Time series plot")
 abline(h=0)
-dev.off
+dev.off()
 
 # Log transform and fit the model with two variables
 final.fit = lm(log(cancer.data$psa) ~ log(cancer.data$weight) + log(cancer.data$vesinv), cancer.data)
